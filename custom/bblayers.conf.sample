@@ -6,12 +6,14 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
+
   ${TOPDIR}/../sources/poky/meta \
   ${TOPDIR}/../sources/poky/meta-poky \
   ${TOPDIR}/../sources/meta-openembedded/meta-oe \
   ${TOPDIR}/../sources/meta-openembedded/meta-python \
   ${TOPDIR}/../sources/meta-raspberrypi \
   ${TOPDIR}/../sources/meta-qt5 \
+  ${TOPDIR}/../sources/meta-openembedded/meta-ruby \
   ${TOPDIR}/../sources/meta-cuteradio \
 "
 
