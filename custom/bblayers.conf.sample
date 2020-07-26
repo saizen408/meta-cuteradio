@@ -6,7 +6,6 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
-
   ${TOPDIR}/../sources/poky/meta \
   ${TOPDIR}/../sources/poky/meta-poky \
   ${TOPDIR}/../sources/meta-openembedded/meta-oe \
