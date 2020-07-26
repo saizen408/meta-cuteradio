@@ -1,4 +1,5 @@
 SUMMARY = "Additional multimedia packages for QML apps"
+LICENSE = "GPLv3"
 
 inherit packagegroup
 
